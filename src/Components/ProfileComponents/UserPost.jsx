@@ -40,8 +40,8 @@ const UserPost = () => {
 
         </div>
         <div>
-            <div className='flex flex-wrap'>
-                {[1,1,1,1,1,1,1,1,1,1,1,1,1,1].map((item) =><UserPostCard/>)}
+            <div className='flex flex-wrap'>{/* User Post Static to Dynamic */}
+                {[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1].map((item) =><UserPostCard/>)}
             </div>
         </div>
     </div>

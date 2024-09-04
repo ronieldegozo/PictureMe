@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillHeart } from 'react-icons/ai'
 import { FaComment } from 'react-icons/fa'
-
+// Post Card created by user
 const UserPostCard = () => {
   return (
     <div className='p-2'>
